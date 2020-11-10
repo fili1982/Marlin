@@ -122,9 +122,9 @@
 #define HEATER_BED_PIN                        10
 
 #ifndef FAN_PIN
-  #define FAN_PIN                              6
+#define FAN_PIN                              7    //fili: swap 6 and 7 because 6 is always-on on my board
 #endif
-#define FAN1_PIN                               7
+#define FAN1_PIN                               6
 
 //
 // Misc. Functions
